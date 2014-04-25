@@ -1,5 +1,5 @@
 {
-    "name": "grumpy/plugin-mardy-hmac",
+    "name": "guzzle/plugin-mardy-hmac",
     "description": "Guzzle log plugin to inject the HMAC into the headers",
     "keywords": ["plugin", "hmac", "guzzle"],
     "license": "MIT",
