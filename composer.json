@@ -1,0 +1,21 @@
+{
+    "name": "grumpy/plugin-mardy-hmac",
+    "description": "Guzzle log plugin to inject the HMAC into the headers",
+    "keywords": ["plugin", "hmac", "guzzle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Bardsley",
+            "email": "me@mic-b.co.uk"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "3.8.*",
+        "mardy-git/hmac": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mardy\\HmacPlugins": "src/"
+        }
+    }
+}
